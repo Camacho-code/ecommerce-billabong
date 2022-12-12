@@ -1,18 +1,20 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import SearchLogo from './assets/icons/Search.svg'
 import './App.css'
+import Header from './components/header/index.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
+      <Header />
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
         </a>
         <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+          <img src={SearchLogo} className="logo react" alt="React logo" />
         </a>
       </div>
       <h1>Vite + React</h1>
@@ -28,6 +30,8 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
     </div>
+
+    
   )
 }
 
