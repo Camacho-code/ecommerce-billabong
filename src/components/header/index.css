@@ -1,0 +1,11 @@
+header {
+  border: 1px solid black;
+  background-color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 700px 100px 100px 100px;
+  align-items: center;
+  padding:10px;
+}
