@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import SearchLogo from './assets/icons/Search.svg'
+import SearchIcon from './assets/icons/Search.svg'
 import './App.css'
 import Header from './components/header/index.jsx'
 
@@ -14,7 +14,7 @@ function App() {
           <img src="/vite.svg" className="logo" alt="Vite logo" />
         </a>
         <a href="https://reactjs.org" target="_blank">
-          <img src={SearchLogo} className="logo react" alt="React logo" />
+          <img src={SearchIcon} className="logo react" alt="React logo" />
         </a>
       </div>
       <h1>Vite + React</h1>
