@@ -1,0 +1,19 @@
+{
+  "extends": "stylelint-config-standard",
+
+  "rules":{
+    "no-duplicate-selectors": true,
+    "no-duplicate-at-import-rules": true,
+    "declaration-block-no-duplicate-properties": true,
+    "block-no-empty":true,
+    "keyframe-declaration-no-important": true,
+    "declaration-no-important": true,
+    "string-quotes":"single",
+    "declaration-block-semicolon-newline-after": "always",
+    "declaration-block-trailing-semicolon":"always",
+    "indentation": 2,
+    "linebreaks":"unix",
+    "no-empty-first-line":"true",
+    "no-extra-semicolons": true
+  }
+}
